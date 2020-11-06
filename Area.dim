@@ -1,0 +1,857 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f4e0abbe-5f4b-4bc6-865f-714240071e96" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Area</ID>
+  <Name>Area</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2719" scrolltop="-4657" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11060" y="14314" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Area" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5583" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cf15000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Dimension_Area" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2719</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4657</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="218">
+            <Shape Id="Sk Area" Expanded="false">
+              <Attributes>
+                <Attribute Id="Sk Area" />
+                <Attribute Id="Adult Female Mortality Rate" />
+                <Attribute Id="Adult Male Mortality Rate" />
+                <Attribute Id="Comorbidity Mortality Rate" />
+                <Attribute Id="Diabetes Prevalence" />
+                <Attribute Id="Health Expenditure" />
+                <Attribute Id="Hospital Beds" />
+                <Attribute Id="Infant Mortality Rate" />
+                <Attribute Id="Latitude" />
+                <Attribute Id="Longitude" />
+                <Attribute Id="Nurses" />
+                <Attribute Id="Out Of Pocket Health Expenditure" />
+                <Attribute Id="Pollution Mortality Rate" />
+                <Attribute Id="Population" />
+                <Attribute Id="Population Age 00 09" />
+                <Attribute Id="Population Age 10 19" />
+                <Attribute Id="Population Age 20 29" />
+                <Attribute Id="Population Age 30 39" />
+                <Attribute Id="Population Age 40 49" />
+                <Attribute Id="Population Age 50 59" />
+                <Attribute Id="Population Age 60 69" />
+                <Attribute Id="Population Age 70 79" />
+                <Attribute Id="Population Age 80 89" />
+                <Attribute Id="Population Age 80 And Older" />
+                <Attribute Id="Population Age 90 99" />
+                <Attribute Id="Population Density" />
+                <Attribute Id="Population Female" />
+                <Attribute Id="Population Male" />
+                <Attribute Id="Rural Population" />
+                <Attribute Id="Smoking Prevalence" />
+                <Attribute Id="Urban Population" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Country Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Country Name" />
+              </Attributes>
+              <Position x="297" y="20" />
+            </Shape>
+            <Shape Id="Subregion1 Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Subregion1 Name" />
+              </Attributes>
+              <Position x="575" y="20" />
+            </Shape>
+            <Shape Id="Subregion2 Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Subregion2 Name" />
+              </Attributes>
+              <Position x="852" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cff311e2-4164-4089-a224-d0afc1935862">
+    <DataSourceViewID>Covid DWH</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="8aab7a0a-2168-4801-ac62-e74c4920d906">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3eda5635-22b2-49c8-9e18-b0730a6b5c14">
+      <ID>Sk Area</ID>
+      <Name>Sk Area</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="49b04959-c245-4d28-96f0-d6b717ec3287">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d3ccdec-54e9-4840-9c92-56b20fcb4a85">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>sk_area</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c8806375-c98e-4a2f-b144-1909ab74a6a6">
+          <AttributeID>Country Name</AttributeID>
+          <Name>Country Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4705f8c5-51d7-4080-9a8e-0df93459fac0">
+          <AttributeID>Population</AttributeID>
+          <Name>Population</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="797f792c-305e-4e31-a12b-5a4f8dbc4a69">
+          <AttributeID>Population Male</AttributeID>
+          <Name>Population Male</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2f01aa2c-3985-474d-8e7e-43d5001ed271">
+          <AttributeID>Population Female</AttributeID>
+          <Name>Population Female</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31c9773f-ca9b-4845-a42c-fbe5a7df43bb">
+          <AttributeID>Rural Population</AttributeID>
+          <Name>Rural Population</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="605d3b91-5f1c-4674-9034-09372ebe21f1">
+          <AttributeID>Urban Population</AttributeID>
+          <Name>Urban Population</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7b5717d4-0254-44a4-bebe-917806996a43">
+          <AttributeID>Population Density</AttributeID>
+          <Name>Population Density</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="454f982e-96f6-40ea-b5f2-daf8618d32f1">
+          <AttributeID>Population Age 00 09</AttributeID>
+          <Name>Population Age 00 09</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="145b67a5-9e43-4fbd-8297-923bf2630fbc">
+          <AttributeID>Population Age 10 19</AttributeID>
+          <Name>Population Age 10 19</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9c6dbaf7-2e8a-4588-8b4c-a1867f98c5de">
+          <AttributeID>Population Age 20 29</AttributeID>
+          <Name>Population Age 20 29</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="48276b32-6a34-475a-bae2-58821a070589">
+          <AttributeID>Population Age 30 39</AttributeID>
+          <Name>Population Age 30 39</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6c8dd2d-8bd0-422e-8c33-a55e2ad1ef6c">
+          <AttributeID>Population Age 40 49</AttributeID>
+          <Name>Population Age 40 49</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b01c4ebd-c0d0-43b9-b027-2b3b76ce65bf">
+          <AttributeID>Population Age 50 59</AttributeID>
+          <Name>Population Age 50 59</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a548b481-a0c1-48ec-ada0-2eb9c7036ad7">
+          <AttributeID>Population Age 60 69</AttributeID>
+          <Name>Population Age 60 69</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0852109b-eb67-4d9a-8b11-ac65c04975ad">
+          <AttributeID>Population Age 70 79</AttributeID>
+          <Name>Population Age 70 79</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5fd7d386-708a-49f6-93cd-b70fe3ed578a">
+          <AttributeID>Population Age 80 89</AttributeID>
+          <Name>Population Age 80 89</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d797635f-b7dd-4171-b95d-44d41f286e0c">
+          <AttributeID>Population Age 90 99</AttributeID>
+          <Name>Population Age 90 99</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="864913e9-e8e8-4b71-a55a-f886316d1c02">
+          <AttributeID>Population Age 80 And Older</AttributeID>
+          <Name>Population Age 80 And Older</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6a6f68ad-886e-4101-b61f-166845102817">
+          <AttributeID>Latitude</AttributeID>
+          <Name>Latitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9f46457b-c037-48bd-b0cb-51415923de8a">
+          <AttributeID>Longitude</AttributeID>
+          <Name>Longitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="87d085d4-1d7c-4f35-941f-ce2d60f152ba">
+          <AttributeID>Smoking Prevalence</AttributeID>
+          <Name>Smoking Prevalence</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e6ebec2d-2597-4844-95bb-21318e340608">
+          <AttributeID>Diabetes Prevalence</AttributeID>
+          <Name>Diabetes Prevalence</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="89d42672-a869-4be1-b574-bb440ba437d9">
+          <AttributeID>Infant Mortality Rate</AttributeID>
+          <Name>Infant Mortality Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="78c196f2-d42e-4415-a27a-69a5a8a69268">
+          <AttributeID>Adult Male Mortality Rate</AttributeID>
+          <Name>Adult Male Mortality Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9a6bbd31-1d3e-4f45-9bae-a4042245265b">
+          <AttributeID>Adult Female Mortality Rate</AttributeID>
+          <Name>Adult Female Mortality Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b6ed1438-78d8-4964-ba5d-6b26331d89a9">
+          <AttributeID>Pollution Mortality Rate</AttributeID>
+          <Name>Pollution Mortality Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="93c2df10-8f4c-48ef-966e-be06d3379d70">
+          <AttributeID>Comorbidity Mortality Rate</AttributeID>
+          <Name>Comorbidity Mortality Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f24a943e-b500-41cb-a1d7-f80fb1cb9c50">
+          <AttributeID>Hospital Beds</AttributeID>
+          <Name>Hospital Beds</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd870c8e-ca6c-4532-a645-1ad5a3f95da8">
+          <AttributeID>Nurses</AttributeID>
+          <Name>Nurses</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a30c4a24-da18-40f7-89a3-edc5930385eb">
+          <AttributeID>Health Expenditure</AttributeID>
+          <Name>Health Expenditure</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3d27f6b6-7935-4250-ac1c-77cd2024a875">
+          <AttributeID>Out Of Pocket Health Expenditure</AttributeID>
+          <Name>Out Of Pocket Health Expenditure</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="111fc469-4362-47ed-b144-80b1a8c00ef5">
+      <ID>Country Name</ID>
+      <Name>Country Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="00756522-0704-4133-81e6-683283a16e80">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7b8ac78a-74d2-4566-a081-9258db9551f7">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>country_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6e62404b-48da-42bc-8f2f-aac15cf09c8d">
+          <AttributeID>Subregion1 Name</AttributeID>
+          <Name>Subregion1 Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0fff4d65-c58f-4b36-b63f-e7f3160d3051">
+      <ID>Subregion1 Name</ID>
+      <Name>Subregion1 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7ea3f53-5063-45d4-a740-bff5f11a2a1a">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bad0a26b-e19c-499f-8257-637f5bd68b37">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>subregion1_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7b247d2d-b751-426b-9f32-76dea77a310f">
+          <AttributeID>Subregion2 Name</AttributeID>
+          <Name>Subregion2 Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="77df5c90-ed72-4efe-b0c7-fd278dfccedb">
+      <ID>Subregion2 Name</ID>
+      <Name>Subregion2 Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2da4a39e-581c-4bca-a5e6-bde02d079dbd">
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a4f5c99-313e-4e35-9702-557982cb1cfe">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>subregion2_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="270cfd6e-7215-439d-93e8-b0b9d049f9ce">
+      <ID>Population</ID>
+      <Name>Population</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c8e7b4c2-3cb6-423a-8421-7fd94a416f46">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32d86a17-6485-4f3e-8a0d-8460d6d1b2b3">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0fd0491e-553c-4e0a-b41b-2b71d3b8e1ff">
+      <ID>Population Male</ID>
+      <Name>Population Male</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e2bac68-6285-4614-8b28-fc5487c63142">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f77aac4-f9ef-43b4-b1af-626654685553">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_male</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="edc61c06-d118-461a-baae-fbd6878e3fca">
+      <ID>Population Female</ID>
+      <Name>Population Female</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4bc39754-b52e-4f37-b3df-dcb65da1cb14">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f70c37c-bfa8-461e-9829-ef61ebfb884f">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_female</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a10b770b-5751-4cc8-b13f-ecbbcd263e79">
+      <ID>Rural Population</ID>
+      <Name>Rural Population</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8cfcf06-b815-4293-aef1-e3a16a03ac75">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb5c974e-e833-4f8e-8b65-ffce4ea01e0f">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>rural_population</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="54de9d73-1079-4431-9eda-78e79f9377f0">
+      <ID>Urban Population</ID>
+      <Name>Urban Population</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="41eb7427-4d8a-4a94-9f51-43bb6af0d249">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d09c825d-59cb-435f-89c5-395aa8567e91">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>urban_population</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c89e67b6-d897-44a1-93be-1f836f273aba">
+      <ID>Population Density</ID>
+      <Name>Population Density</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26f5a0c6-d42f-4e99-861f-3aebeea535ac">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d146e068-8951-48a1-8159-a170663fb145">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_density</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2ebcb639-d998-44d9-bd5d-82061daea4be">
+      <ID>Population Age 00 09</ID>
+      <Name>Population Age 00 09</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a5e58058-9c99-46a6-8429-5da61a4cba28">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3cb890e1-a5ca-413d-a933-aa1e264b5448">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_00_09</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7b816a41-daa0-4aa2-8299-78a2df9efc73">
+      <ID>Population Age 10 19</ID>
+      <Name>Population Age 10 19</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7c1501d7-b037-4f27-8ef6-6af55f83918c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0f78d10-3389-415c-b5d6-61f10002f162">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_10_19</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c3019adc-5b09-46d2-a537-9eb7daed0a2a">
+      <ID>Population Age 20 29</ID>
+      <Name>Population Age 20 29</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ac36fc69-77ab-48a3-8772-d9ff92fd25b6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ef81e2e-9435-4d7d-ac7e-f6e71e3fba17">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_20_29</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28690f4d-aa88-4276-9f55-a710b2b9e6d2">
+      <ID>Population Age 30 39</ID>
+      <Name>Population Age 30 39</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8c457bec-3599-44e1-83d2-81628e476f03">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5a3278c-2867-43c5-9161-70266e739602">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_30_39</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e1029781-75be-4c69-9918-c2ad36528855">
+      <ID>Population Age 40 49</ID>
+      <Name>Population Age 40 49</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="91e6c2f8-4779-47a8-b500-c371c624ae1f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7406bafd-5cd6-42ea-a0ba-13bd351e4a7d">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_40_49</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4801b3cb-7e1d-4e93-8637-1e5d47e64e19">
+      <ID>Population Age 50 59</ID>
+      <Name>Population Age 50 59</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95f19a23-1a66-464a-a57a-57a5c4e8a229">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82ff468b-2451-47f7-900f-3ea44dc93f26">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_50_59</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7622338b-9c6b-40ba-a4a8-26b40225406c">
+      <ID>Population Age 60 69</ID>
+      <Name>Population Age 60 69</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9735dbb3-3305-48fe-bdb7-d9286fa2ed09">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="476a2ce1-6ed6-4ef1-9a2f-f5c3954678ac">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_60_69</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9be54afe-8c53-439f-a369-2172724d1565">
+      <ID>Population Age 70 79</ID>
+      <Name>Population Age 70 79</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cfd374f4-8f5b-4ac3-b16b-0097bd6658bf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0adb936b-85dd-4eb3-b7a3-ba486ed5995a">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_70_79</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6e79c3fc-352d-49e0-80f6-3b177482e09e">
+      <ID>Population Age 80 89</ID>
+      <Name>Population Age 80 89</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad2597ca-1c8b-4d1b-8b02-9af9d4506d1c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="248816a5-b8d0-4690-a69e-ea518ba915f9">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_80_89</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a2719749-9ace-48ff-91c7-68400a128dfd">
+      <ID>Population Age 90 99</ID>
+      <Name>Population Age 90 99</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62d94c8c-a6d2-4255-a8b1-b4d6bceb752d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f127d96-d075-4ceb-b14d-49c8ba248a82">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_90_99</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8492d5f3-272f-45cb-9d48-0499efe104b6">
+      <ID>Population Age 80 And Older</ID>
+      <Name>Population Age 80 And Older</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="22a64a54-4f3d-4eed-ace0-238d3d11dbf4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df12e729-f523-422b-b3a5-2bd5ba86ca11">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>population_age_80_and_older</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5c75ec25-12da-41de-bb2e-9379e41afa2a">
+      <ID>Latitude</ID>
+      <Name>Latitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="455439d4-1da0-4dcb-9032-a1554d763d0d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9878e0bf-32ac-426b-8dc7-95aa949d1f61">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>latitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7c38203d-7a93-4d30-a814-da73fb6bb24b">
+      <ID>Longitude</ID>
+      <Name>Longitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="07dc71ea-8c14-4711-9a4b-29e41f9487c1">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71ed9b2b-4fb6-4f1d-8370-0b580c07d4ae">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>longitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ed5cf59-0097-439e-9126-464bda46e0da">
+      <ID>Smoking Prevalence</ID>
+      <Name>Smoking Prevalence</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fdb8aea7-d3f4-451f-92fe-4b7d9f208429">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51aa9ff4-05cc-4c6b-9ab0-a552262cb3e1">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>smoking_prevalence</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28f7c0dc-baf8-4bb8-8253-440f7ceb69d0">
+      <ID>Diabetes Prevalence</ID>
+      <Name>Diabetes Prevalence</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="417bdbce-6b99-4f50-8824-7274a1987563">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="84b7b597-a162-4d83-9d2f-a7dd8d6c95e8">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>diabetes_prevalence</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="83ef6d6f-ddea-47ca-a9d3-36412e27edf9">
+      <ID>Infant Mortality Rate</ID>
+      <Name>Infant Mortality Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eb11b11d-9a37-4b59-b6d8-099dc940b9be">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e19926b9-5c7b-4d94-8200-d215de7942dd">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>infant_mortality_rate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2abf803d-5df2-4299-a142-dbd1849edf0b">
+      <ID>Adult Male Mortality Rate</ID>
+      <Name>Adult Male Mortality Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca56d328-45c1-453a-b3fc-ffe9f63c69ac">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb7c608e-3c50-4fe9-92a4-c1feb1d6b09d">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>adult_male_mortality_rate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f5e0385c-9f95-4830-8d1e-4e5930e11e29">
+      <ID>Adult Female Mortality Rate</ID>
+      <Name>Adult Female Mortality Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="42c71eed-fab6-4a0f-b5cd-54e8336687ed">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de891898-9d65-4b4e-b8fd-2da3d5eff64c">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>adult_female_mortality_rate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="00e111e3-9731-4555-bff4-3a8697f55656">
+      <ID>Pollution Mortality Rate</ID>
+      <Name>Pollution Mortality Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="628b7ef4-2b25-44b5-92a4-d3439050d784">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b03b0a2-f5c3-4bf4-aa04-2d31fc16be77">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>pollution_mortality_rate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b8682a28-58c2-430f-abac-4ec08948e14b">
+      <ID>Comorbidity Mortality Rate</ID>
+      <Name>Comorbidity Mortality Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a11402f6-ec3d-4f50-a254-d5700f702b76">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fec897b2-c2ac-409a-be34-4a677f32931c">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>comorbidity_mortality_rate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="51db36c0-a67f-4535-9310-850b27c6852a">
+      <ID>Hospital Beds</ID>
+      <Name>Hospital Beds</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="79dd7433-c98c-42d8-be65-d2cf4899b7f0">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3aa8703-146c-4dab-bbe9-f7adc36d8909">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>hospital_beds</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="19104c82-abf1-4d47-a836-d1d681364cca">
+      <ID>Nurses</ID>
+      <Name>Nurses</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7917dfc4-d3ac-4dc8-bca9-5f95c0c74821">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f9bf223-d7b9-4c61-b5bc-6bf62fdb9b5e">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>nurses</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61853e9a-bf6e-425d-8bba-956c63f597ec">
+      <ID>Health Expenditure</ID>
+      <Name>Health Expenditure</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bc2a5838-c750-4183-89d4-961c5c595f4c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="baedd47e-f4d5-4586-ae2d-18057ddfcb7b">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>health_expenditure</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0ba24c31-2662-486f-9d4d-6f0e3a5bdf32">
+      <ID>Out Of Pocket Health Expenditure</ID>
+      <Name>Out Of Pocket Health Expenditure</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="729419ac-8f1e-44e3-befa-96ec14f8b233">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff5e4513-e6ec-4c1f-a869-941561ffbb26">
+            <TableID>Dimension_Area</TableID>
+            <ColumnID>out_of_pocket_health_expenditure</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f64c8208-df55-4d0c-8843-4f6c14ad10bb">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
+      <Levels>
+        <Level dwd:design-time-name="2cb198bb-ff11-44dd-b560-9d74bd48a87a">
+          <ID>Country Name</ID>
+          <Name>Country Name</Name>
+          <SourceAttributeID>Country Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a62b6f64-1f33-4660-bd25-4ee87e31ec49">
+          <ID>Subregion1 Name</ID>
+          <Name>Subregion1 Name</Name>
+          <SourceAttributeID>Subregion1 Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9ff0e11f-e8e3-4310-bffb-8c9edf845086">
+          <ID>Subregion2 Name</ID>
+          <Name>Subregion2 Name</Name>
+          <SourceAttributeID>Subregion2 Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
