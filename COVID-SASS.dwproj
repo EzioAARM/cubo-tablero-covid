@@ -20,12 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Area.dim</Name>
-      <FullPath>Area.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Fecha.dim</Name>
       <FullPath>Fecha.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Area.dim</Name>
+      <FullPath>Area.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -48,7 +48,7 @@
           <ConfigurationSetting>
             <Id>Covid DWH</Id>
             <Name>Covid DWH</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=18.212.78.236;Persist Security Info=True;Password=;User ID=;Initial Catalog=Covid_DWH</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=40.117.179.53;Persist Security Info=True;Password=;User ID=;Initial Catalog=COVID_GRUPO7_DWH</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
